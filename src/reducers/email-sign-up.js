@@ -1,5 +1,5 @@
 import Immutable from "immutable";
-import { createReducer } from "redux-immutablejs";
+import { createReducer } from "redux";
 import * as A from "../actions/email-sign-up";
 import { SET_ENDPOINT_KEYS } from "../actions/configure";
 

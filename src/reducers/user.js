@@ -1,5 +1,5 @@
 import Immutable from "immutable";
-import { createReducer } from "redux-immutablejs";
+import { createReducer } from "redux";
 import { getCurrentEndpointKey } from "../utils/session-storage.js"
 import * as authActions from "../actions/authenticate";
 import { EMAIL_SIGN_IN_COMPLETE } from "../actions/email-sign-in";

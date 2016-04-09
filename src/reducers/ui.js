@@ -1,5 +1,5 @@
 import Immutable from "immutable";
-import { createReducer } from "redux-immutablejs";
+import { createReducer } from "redux";
 import * as uiActions from "../actions/ui";
 import * as emailSignInActions from "../actions/email-sign-in";
 import * as emailSignUpActions from "../actions/email-sign-up";
